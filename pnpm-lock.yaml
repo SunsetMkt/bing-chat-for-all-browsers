@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   react:
     specifier: ^17.0.1
@@ -26,10 +30,10 @@ devDependencies:
     version: 17.0.0
   copy-webpack-plugin:
     specifier: ^9.0.1
-    version: 9.0.1(webpack@5.61.0)
+    version: 9.0.1(webpack@5.76.0)
   file-loader:
     specifier: ^6.2.0
-    version: 6.2.0(webpack@5.61.0)
+    version: 6.2.0(webpack@5.76.0)
   glob:
     specifier: ^7.1.6
     version: 7.1.6
@@ -53,13 +57,13 @@ devDependencies:
     version: 4.4.3
   url-loader:
     specifier: ^4.1.1
-    version: 4.1.1(file-loader@6.2.0)(webpack@5.61.0)
+    version: 4.1.1(file-loader@6.2.0)(webpack@5.76.0)
   webpack:
-    specifier: ^5.61.0
-    version: 5.61.0(webpack-cli@4.0.0)
+    specifier: ^5.76.0
+    version: 5.76.0(webpack-cli@4.0.0)
   webpack-cli:
     specifier: ^4.0.0
-    version: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+    version: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
   webpack-merge:
     specifier: ^5.0.0
     version: 5.0.0
@@ -393,6 +397,7 @@ packages:
   /@babel/plugin-proposal-async-generator-functions@7.20.7(@babel/core@7.21.4):
     resolution: {integrity: sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -421,6 +426,7 @@ packages:
   /@babel/plugin-proposal-class-static-block@7.21.0(@babel/core@7.21.4):
     resolution: {integrity: sha512-XP5G9MWNUskFuP30IfFSEFB0Z6HzLIUcjYM4bYOPHXl7eiJ9HFv8tWj6TXTN5QODiEhDZAeI4hLok2iHFFV4hw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block instead.
     peerDependencies:
       '@babel/core': ^7.12.0
     dependencies:
@@ -435,6 +441,7 @@ packages:
   /@babel/plugin-proposal-dynamic-import@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -446,6 +453,7 @@ packages:
   /@babel/plugin-proposal-export-namespace-from@7.18.9(@babel/core@7.21.4):
     resolution: {integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -457,6 +465,7 @@ packages:
   /@babel/plugin-proposal-json-strings@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -468,6 +477,7 @@ packages:
   /@babel/plugin-proposal-logical-assignment-operators@7.20.7(@babel/core@7.21.4):
     resolution: {integrity: sha512-y7C7cZgpMIjWlKE5T7eJwp+tnRYM89HmRvWM5EQuB5BoHEONjmQ8lSNmBUwOyy/GFRsohJED51YBF79hE1djug==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -490,6 +500,7 @@ packages:
   /@babel/plugin-proposal-numeric-separator@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -501,6 +512,7 @@ packages:
   /@babel/plugin-proposal-object-rest-spread@7.20.7(@babel/core@7.21.4):
     resolution: {integrity: sha512-d2S98yCiLxDVmBmE8UjGcfPvNEUbA1U5q5WxaWFUGRzJSVAZqm5W6MbPct0jxnegUZ0niLeNX+IOzEs7wYg9Dg==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -515,6 +527,7 @@ packages:
   /@babel/plugin-proposal-optional-catch-binding@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -538,6 +551,7 @@ packages:
   /@babel/plugin-proposal-private-methods@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -551,6 +565,7 @@ packages:
   /@babel/plugin-proposal-private-property-in-object@7.21.0(@babel/core@7.21.4):
     resolution: {integrity: sha512-ha4zfehbJjc5MmXBlHec1igel5TJXXLDDRbuJ4+XT2TJcyD9/V1919BA8gMvsdHcNMBy4WBUBiRb3nw/EQUtBw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -566,6 +581,7 @@ packages:
   /@babel/plugin-proposal-unicode-property-regex@7.18.6(@babel/core@7.21.4):
     resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
     engines: {node: '>=4'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -1700,18 +1716,18 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.37.0
-      '@types/estree': 0.0.50
+      '@types/estree': 0.0.51
     dev: true
 
   /@types/eslint@8.37.0:
     resolution: {integrity: sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==}
     dependencies:
-      '@types/estree': 0.0.50
+      '@types/estree': 0.0.51
       '@types/json-schema': 7.0.11
     dev: true
 
-  /@types/estree@0.0.50:
-    resolution: {integrity: sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==}
+  /@types/estree@0.0.51:
+    resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
     dev: true
 
   /@types/filesystem@0.0.32:
@@ -1941,7 +1957,7 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/generators@1.3.1(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.61.0):
+  /@webpack-cli/generators@1.3.1(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.76.0):
     resolution: {integrity: sha512-BJTAtOIhCk9GCQwj1j5fw4wExDHjNbBoyAMm6i+A23VhdCsyIMlEokT0X8hMr/xY9scrDC4n8QCTYpWcOZd31Q==}
     peerDependencies:
       prettier: '*'
@@ -1960,8 +1976,8 @@ packages:
       log-symbols: 4.1.0
       p-each-series: 2.2.0
       prettier: 2.2.1
-      webpack: 5.61.0(webpack-cli@4.0.0)
-      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
       yeoman-environment: 2.10.3
       yeoman-generator: 4.13.0
     transitivePeerDependencies:
@@ -1976,18 +1992,18 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: 7.8.1
-      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
     dev: true
 
-  /@webpack-cli/init@1.1.3(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.61.0):
+  /@webpack-cli/init@1.1.3(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.76.0):
     resolution: {integrity: sha512-DvvX4HTltz/dM6Ybwiskxv+BXOH4JVkgI9j66jueA/uK3EAyQuCDM6a9eR06AZbUFaC/iCpt0zlG0msXrZ69wg==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
       webpack-cli: 4.x.x
     dependencies:
-      '@webpack-cli/generators': 1.3.1(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.61.0)
-      webpack: 5.61.0(webpack-cli@4.0.0)
-      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+      '@webpack-cli/generators': 1.3.1(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.76.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
     transitivePeerDependencies:
       - '@babel/preset-env'
       - encoding
@@ -2004,7 +2020,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
     dev: true
 
   /@xtuc/ieee754@1.2.0:
@@ -2724,7 +2740,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /copy-webpack-plugin@9.0.1(webpack@5.61.0):
+  /copy-webpack-plugin@9.0.1(webpack@5.76.0):
     resolution: {integrity: sha512-14gHKKdYIxF84jCEgPgYXCPpldbwpxxLbCmA7LReY7gvbaT555DgeBWBgBZM116tv/fO6RRJrsivBqRyRlukhw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -2737,7 +2753,7 @@ packages:
       p-limit: 3.1.0
       schema-utils: 3.1.2
       serialize-javascript: 6.0.1
-      webpack: 5.61.0(webpack-cli@4.0.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
     dev: true
 
   /core-js-compat@3.30.1:
@@ -3317,7 +3333,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /file-loader@6.2.0(webpack@5.61.0):
+  /file-loader@6.2.0(webpack@5.76.0):
     resolution: {integrity: sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -3325,7 +3341,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.1.2
-      webpack: 5.61.0(webpack-cli@4.0.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
     dev: true
 
   /filelist@1.0.4:
@@ -4687,10 +4703,6 @@ packages:
 
   /json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
-    dev: true
-
-  /json-parse-better-errors@1.0.2:
-    resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
     dev: true
 
   /json-parse-even-better-errors@2.3.1:
@@ -6216,7 +6228,7 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: true
 
-  /terser-webpack-plugin@5.3.7(webpack@5.61.0):
+  /terser-webpack-plugin@5.3.7(webpack@5.76.0):
     resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -6237,7 +6249,7 @@ packages:
       schema-utils: 3.1.2
       serialize-javascript: 6.0.1
       terser: 5.17.1
-      webpack: 5.61.0(webpack-cli@4.0.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
     dev: true
 
   /terser@5.17.1:
@@ -6529,7 +6541,7 @@ packages:
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
 
-  /url-loader@4.1.1(file-loader@6.2.0)(webpack@5.61.0):
+  /url-loader@4.1.1(file-loader@6.2.0)(webpack@5.76.0):
     resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -6539,11 +6551,11 @@ packages:
       file-loader:
         optional: true
     dependencies:
-      file-loader: 6.2.0(webpack@5.61.0)
+      file-loader: 6.2.0(webpack@5.76.0)
       loader-utils: 2.0.4
       mime-types: 2.1.35
       schema-utils: 3.1.2
-      webpack: 5.61.0(webpack-cli@4.0.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
     dev: true
 
   /url-parse-lax@1.0.0:
@@ -6665,7 +6677,7 @@ packages:
     engines: {node: '>=10.4'}
     dev: true
 
-  /webpack-cli@4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0):
+  /webpack-cli@4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0):
     resolution: {integrity: sha512-c5NOm8jDp3qWa+Q4pDZTcT5IwPcPXdjU1ejN9e7LojHQN02sjNr4tzLrt5pwkY+zN8pQL40m14JsbC2Dh+ZJ/w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -6686,7 +6698,7 @@ packages:
         optional: true
     dependencies:
       '@webpack-cli/info': 1.5.0(webpack-cli@4.0.0)
-      '@webpack-cli/init': 1.1.3(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.61.0)
+      '@webpack-cli/init': 1.1.3(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack-cli@4.0.0)(webpack@5.76.0)
       '@webpack-cli/serve': 1.7.0(webpack-cli@4.0.0)
       ansi-escapes: 4.3.2
       colorette: 1.4.0
@@ -6698,7 +6710,7 @@ packages:
       interpret: 2.2.0
       rechoir: 0.7.1
       v8-compile-cache: 2.3.0
-      webpack: 5.61.0(webpack-cli@4.0.0)
+      webpack: 5.76.0(webpack-cli@4.0.0)
       webpack-merge: 4.2.2
     transitivePeerDependencies:
       - '@babel/preset-env'
@@ -6727,8 +6739,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.61.0(webpack-cli@4.0.0):
-    resolution: {integrity: sha512-fPdTuaYZ/GMGFm4WrPi2KRCqS1vDp773kj9S0iI5Uc//5cszsFEDgHNaX4Rj1vobUiU1dFIV3mA9k1eHeluFpw==}
+  /webpack@5.76.0(webpack-cli@4.0.0):
+    resolution: {integrity: sha512-l5sOdYBDunyf72HW8dF23rFtWq/7Zgvt/9ftMof71E/yUb1YLOBmTgA2K4vQthB3kotMrSj609txVE0dnr2fjA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -6738,7 +6750,7 @@ packages:
         optional: true
     dependencies:
       '@types/eslint-scope': 3.7.4
-      '@types/estree': 0.0.50
+      '@types/estree': 0.0.51
       '@webassemblyjs/ast': 1.11.1
       '@webassemblyjs/wasm-edit': 1.11.1
       '@webassemblyjs/wasm-parser': 1.11.1
@@ -6752,15 +6764,15 @@ packages:
       events: 3.3.0
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
-      json-parse-better-errors: 1.0.2
+      json-parse-even-better-errors: 2.3.1
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 3.1.2
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.7(webpack@5.61.0)
+      terser-webpack-plugin: 5.3.7(webpack@5.76.0)
       watchpack: 2.4.0
-      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.61.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.21.4)(prettier@2.2.1)(webpack@5.76.0)
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
